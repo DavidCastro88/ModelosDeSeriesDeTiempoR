@@ -2,13 +2,13 @@
 
 ![image](https://github.com/DavidCastro88/ModelosDeSeriesDeTiempoR/assets/91480088/d30e6fe1-6646-4077-a632-41154951725f)
 
-Componentes de una serie:
+**Componentes de una serie:**
 - Tendencia
 - Estacionalidad
 - Ciclos (No se pueden modelar)
 - Error
 
-Combinación de las componentes:
+**Combinación de las componentes:**
 - Aditiva =  Tendencia + Estacionalidad + Error
 - Multiplicativo
     - Completamente multiplicativo: Tendencia x Estacionalidad x exp(Error)  =>  log(Tendencia) + log(Estacionalidad) + (Error)
