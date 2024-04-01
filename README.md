@@ -1,4 +1,4 @@
-# **ModelosDeSeriesDeTiempoR**
+# **Modelos Para Series de Tiempo con R**
 
 ![image](https://github.com/DavidCastro88/ModelosDeSeriesDeTiempoR/assets/91480088/d30e6fe1-6646-4077-a632-41154951725f)
 
@@ -79,7 +79,7 @@ Validar que los residuos de ajuste (at) sean un Ruido Blanco.
 - SelectModel() de la librearía FitAR
 - Recomendada armasubsets() de la librearia TSA
 
-### **4. Modelos ARIMA(p,d,q)(P,D,Q)[s]**:
+### **4. Modelos SARIMA(p,d,q)(P,D,Q)[s]**:
 
     Pasos:
         1. Estabilizar varianza, si fuese necesario (en series multiplicativas se modela en la escala logaritmo natural).
